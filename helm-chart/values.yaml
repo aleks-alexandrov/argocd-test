@@ -2,8 +2,8 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 container:
-  name: nginx
-  image: aleksandrov22/webapp:7
+  name: wordpress
+  image: aleksandrov22/webapp:latest
   restart: Always
   labels: wordpress-app
 replicaCount: 1
