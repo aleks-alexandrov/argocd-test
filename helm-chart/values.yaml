@@ -3,13 +3,13 @@
 # Declare variables to be passed into your templates.
 container:
   name: nginx
-  image: aleksandrov22/lab-for-jenkins:12
+  image: aleksandrov22/webapp:7
   restart: Always
-  labels: nginx-app
+  labels: wordpress-app
 replicaCount: 1
 
 image:
-  repository: https://hub.docker.com/repository/docker/aleksandrov22/lab-for-jenkins/general
+  repository: https://hub.docker.com/repository/docker/aleksandrov22/webapp/general
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
