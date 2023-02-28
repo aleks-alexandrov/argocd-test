@@ -9,7 +9,7 @@ container:
 replicaCount: 1
 
 image:
-  repository: https://hub.docker.com/repository/docker/aleksandrov22/webapp/general
+  repository: https://hub.docker.com/repository/docker/aleksandrov22/webapp/
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
