@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 container:
   name: wordpress
-  image: aleksandrov22/webapp:latest
+  image: aleksandrov22/webapp:7
   restart: Always
   labels: wordpress-app
 replicaCount: 1
